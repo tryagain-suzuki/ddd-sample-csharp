@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManageAPI.DomainModel\TaskManageAPI.DomainModel.csproj" />
+    <ProjectReference Include="..\TaskManageAPI.DomainService\TaskManageAPI.DomainService.csproj" />
+  </ItemGroup>
+
+</Project>
